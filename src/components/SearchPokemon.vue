@@ -33,7 +33,7 @@ function chercherPokemon() {
         </div>
         <div id="btn-pokemon">
         <label for="soumettre">Connaitre ses caractéristiques</label>
-        <input @click.prevent="chercherPokemon" type="submit" id="soumettre" name="soumettre" value="GO !">
+        <input @click.prevent="chercherPokemon" type="submit" name="soumettre" value="Go !">
         </div>
     </form>
     <DetailsPokemon v-if="isPokemon === true" :pokemonDetails="pokemonDatas"/>
